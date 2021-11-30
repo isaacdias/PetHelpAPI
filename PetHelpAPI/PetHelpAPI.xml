@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PetHelpAPI</name>
+    </assembly>
+    <members>
+        <member name="M:PetHelpAPI.Controllers.V1.AbrigosController.Obter(System.Int32,System.Int32)">
+            <summary>
+            Método que busca todos os abrigos cadastados
+            </summary>
+            <param name="pagina"></param>
+            <param name="quantidade"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PetHelpAPI.Controllers.V1.AbrigosController.Obter(System.Guid)">
+            <summary>
+            Método que busca um abrigo de acordo com o ID
+            </summary>
+            <param name="idAbrigo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PetHelpAPI.Controllers.V1.AbrigosController.Adicionar(PetHelpAPI.InputModel.AbrigoInputModel)">
+            <summary>
+            Método para cadastrar um abrigo
+            </summary>
+            <param name="abrigoInputModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PetHelpAPI.Controllers.V1.AbrigosController.AtualizarAbrigo(System.Guid,PetHelpAPI.InputModel.AbrigoInputModel)">
+            <summary>
+            Método para atualizar um abrigo
+            </summary>
+            <param name="idAbrigo"></param>
+            <param name="abrigoInputModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PetHelpAPI.Controllers.V1.AbrigosController.DeletarAbrigo(System.Guid)">
+            <summary>
+            Método que deleta um abrigo
+            </summary>
+            <param name="idAbrigo"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
